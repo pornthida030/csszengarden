@@ -1,6 +1,6 @@
 # CSS Zen Garden: The Beauty of CSS Design
 
-> [พรธิดา สุขสรรควณิช]
+> [Pornthida Suksankawanich]
 >  
 > [6210451314]
 
