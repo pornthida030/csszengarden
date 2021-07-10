@@ -1,0 +1,182 @@
+#css-zen-garden {
+  background-color: green;
+}
+
+div.page-wrapper {
+  background-color: rgba(255, 255, 255, 0.363);
+  border-radius: 5px;
+}
+div.page-wrapper section.intro header {
+  text-align: center;
+  background-image: url(https://cdn.pixabay.com/photo/2018/08/10/03/19/lane-3596034_960_720.jpg);
+  border: 10px solid white;
+  border-radius: 5px;
+}
+div.page-wrapper section.intro header h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 32px;
+  color: white;
+}
+div.page-wrapper section.intro header h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: white;
+}
+div.page-wrapper section.intro div.summary {
+  padding: 0px 20px 0px 20px;
+}
+div.page-wrapper section.intro div.summary p a {
+  color: #6d6224;
+  text-decoration: none;
+  font-weight: bolder;
+}
+div.page-wrapper section.intro div.summary p a:hover {
+  color: #fffb00;
+}
+div.page-wrapper section.intro div.preamble {
+  padding: 0px 20px 0px 20px;
+}
+div.page-wrapper section.intro div.preamble h3 {
+  font-family: sans-serif;
+}
+div.page-wrapper div[role=main] {
+  padding: 0px 20px 0px 20px;
+}
+div.page-wrapper div[role=main] div.explanation h3 {
+  font-family: sans-serif;
+}
+div.page-wrapper div[role=main] div.participation h3 {
+  font-family: sans-serif;
+}
+div.page-wrapper div[role=main] div.participation a {
+  color: #6d6224;
+  text-decoration: none;
+  font-weight: bolder;
+}
+div.page-wrapper div[role=main] div.participation a:hover {
+  color: #fffb00;
+}
+div.page-wrapper div[role=main] div.benefits h3 {
+  font-family: sans-serif;
+}
+div.page-wrapper div[role=main] div.requirements h3 {
+  font-family: sans-serif;
+}
+div.page-wrapper div[role=main] div.requirements p a {
+  color: #6d6224;
+  text-decoration: none;
+  font-weight: bolder;
+}
+div.page-wrapper div[role=main] div.requirements p a:hover {
+  color: #fffb00;
+}
+div.page-wrapper div[role=main] div.requirements p[role=contentinfo] {
+  color: white;
+  background-image: url(https://cdn.pixabay.com/photo/2016/07/05/16/53/leaves-1498985_960_720.jpg);
+  font-family: cursive;
+  font-size: 24px;
+  text-align: center;
+  border: 10px solid white;
+  border-radius: 5px;
+}
+div.page-wrapper div[role=main] div.requirements p[role=contentinfo] a {
+  color: #fceea1;
+  text-decoration: none;
+  font-weight: bolder;
+}
+div.page-wrapper div[role=main] footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+div.page-wrapper div[role=main] footer > a {
+  text-align: center;
+  width: 200px;
+  color: white;
+  background-color: #055705;
+  margin: 10px;
+  padding: 10px 10px 10px 10px;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: sans-serif;
+  border-radius: 5px;
+}
+div.page-wrapper div[role=main] footer > a:hover {
+  box-shadow: black 5px 5px 10px;
+  background-color: red;
+}
+div.page-wrapper aside.sidebar {
+  background-color: white;
+  border-radius: 5px;
+}
+div.page-wrapper aside.sidebar div.wrapper div.design-selection h3.select {
+  background-color: #055705;
+  border-radius: 1px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 24px;
+  padding: 10px 20px;
+}
+div.page-wrapper aside.sidebar div.wrapper div.design-selection nav[role=navigation] ul {
+  padding: 0px 0px 0px 20px;
+  list-style-type: none;
+}
+div.page-wrapper aside.sidebar div.wrapper div.design-selection nav[role=navigation] ul li {
+  font-family: monospace;
+}
+div.page-wrapper aside.sidebar div.wrapper div.design-selection nav[role=navigation] ul li a {
+  text-decoration: none;
+  color: #098009;
+  font-weight: bolder;
+}
+div.page-wrapper aside.sidebar div.wrapper div.design-selection nav[role=navigation] ul li a:hover {
+  color: red;
+}
+div.page-wrapper aside.sidebar div.wrapper div.design-archives h3.archives {
+  background-color: #055705;
+  border-radius: 1px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 24px;
+  padding: 10px 20px;
+}
+div.page-wrapper aside.sidebar div.wrapper div.design-archives ul {
+  padding: 0px 0px 0px 20px;
+  list-style-type: none;
+}
+div.page-wrapper aside.sidebar div.wrapper div.design-archives ul li {
+  font-family: monospace;
+}
+div.page-wrapper aside.sidebar div.wrapper div.design-archives ul li a {
+  text-decoration: none;
+  color: #098009;
+  font-weight: bolder;
+}
+div.page-wrapper aside.sidebar div.wrapper div.design-archives ul li a:hover {
+  color: red;
+}
+div.page-wrapper aside.sidebar div.wrapper div.zen-resources h3.resources {
+  background-color: #055705;
+  border-radius: 1px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 24px;
+  padding: 10px 20px;
+}
+div.page-wrapper aside.sidebar div.wrapper div.zen-resources ul {
+  padding: 0px 0px 20px 20px;
+  list-style-type: none;
+}
+div.page-wrapper aside.sidebar div.wrapper div.zen-resources ul li {
+  font-family: monospace;
+}
+div.page-wrapper aside.sidebar div.wrapper div.zen-resources ul li a {
+  text-decoration: none;
+  color: #098009;
+  font-weight: bolder;
+}
+div.page-wrapper aside.sidebar div.wrapper div.zen-resources ul li a:hover {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,238 @@
+$link-color:#6d6224;
+$link-color-two: rgb(5, 87, 5);
+$link-color-three:rgb(9, 128, 9);
+$link-color-four: rgb(255, 251, 0);
+#css-zen-garden{
+    background-color: green;
+}
+
+div.page-wrapper{
+    // background-color:rgba(255, 255, 255, 0.363);
+    // border: solid rgba(255, 255, 255, 0.363) ;
+    section.intro{
+        header{
+               text-align: center;
+                background-image: url(https://cdn.pixabay.com/photo/2018/08/10/03/19/lane-3596034_960_720.jpg);
+                border: 10px solid white;
+                border-radius: 5px;
+            h1{
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 32px;
+                color: white;
+               
+            }
+            h2{
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-size: 20px;
+                color: white;
+            }
+        }
+        
+        div.summary{
+            padding: 0px 20px 0px 20px;
+            p{
+                
+                a{
+                    color:$link-color;
+                    text-decoration: none;
+                    font-weight: bolder;
+                }
+                a:hover{
+                    color:$link-color-four;
+                }
+            }
+        }
+        div.preamble{
+            padding: 0px 20px 0px 20px;
+            h3{
+                font-family:sans-serif;
+
+            }
+        }
+    }
+
+    background-color:rgba(255, 255, 255, 0.363);
+    border-radius: 5px;
+    
+    div[role="main"]{
+        padding: 0px 20px 0px 20px;
+        div.explanation{
+            h3{
+                font-family:sans-serif;
+            }
+        }
+        div.participation{
+            h3{
+                font-family: sans-serif;
+            }
+            a{
+                color: $link-color;
+                text-decoration: none;
+                font-weight: bolder;
+            }
+            a:hover{
+                color: $link-color-four;
+            }
+
+        }
+        div.benefits{
+            h3{
+                font-family: sans-serif;
+            }
+
+        }
+        div.requirements{
+            h3{
+                font-family: sans-serif;
+            }
+            p{
+                a{
+                    color: $link-color;
+                    text-decoration: none;
+                    font-weight: bolder;
+                }
+                a:hover{
+                    color:$link-color-four;
+                }
+            }
+            p[role="contentinfo"]{
+                color: white;
+                background-image: url(https://cdn.pixabay.com/photo/2016/07/05/16/53/leaves-1498985_960_720.jpg);
+                font-family: cursive;
+                font-size: 24px;
+                text-align: center;
+                border: 10px solid white;
+                border-radius: 5px;
+                a{
+                    color: hsl(51, 94%, 81%);
+                    text-decoration: none;
+                    font-weight: bolder;
+                }
+                
+                
+            }
+        }
+        footer {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+        }
+        footer>a{
+            text-align: center;
+            width: 200px;
+            color: white;
+            background-color: $link-color-two;
+            margin: 10px;
+            padding: 10px 10px 10px 10px;
+            font-size: 20px;
+            text-decoration: none;
+            font-family:sans-serif;
+            border-radius: 5px;
+
+        }
+        footer>a:hover {
+            box-shadow: black 5px 5px 10px;
+            background-color: red;
+        }
+        
+    }
+
+
+    aside.sidebar{
+        background-color: white;
+        border-radius: 5px;
+
+        div.wrapper{
+            
+            div.design-selection{
+                
+                h3.select{
+                    background-color: $link-color-two;
+                    border-radius: 1px;
+                    color: white;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    font-size: 24px;
+                    padding: 10px 20px;
+                }
+                nav[role="navigation"]{
+                    
+                    ul{
+                        padding: 0px 0px 0px 20px;
+                       li{
+                           font-family: monospace;
+                           a{
+                            text-decoration: none; 
+                            color: $link-color-three;
+                        font-weight: bolder;  
+                           }
+                           a:hover{
+                            color: red;
+                        }
+                       } 
+                        list-style-type: none;
+                        
+                        
+                    }
+                    
+                }
+            }
+
+            div.design-archives{
+                h3.archives{
+                    background-color: $link-color-two;
+                    border-radius: 1px;
+                    color: white;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    font-size: 24px;
+                    padding: 10px 20px;
+                }
+                ul{
+                    padding: 0px 0px 0px 20px;
+                   li{
+                       font-family: monospace;
+                       a{
+                        text-decoration: none; 
+                        color: $link-color-three;
+                        font-weight: bolder;  
+                       }
+                       a:hover{
+                           color: red;
+                       }
+                   } 
+                    list-style-type: none;
+                    
+                }
+                
+            }
+
+            div.zen-resources{
+                h3.resources{
+                    background-color: $link-color-two;
+                    border-radius: 1px;
+                    color: white;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    font-size: 24px;
+                    padding: 10px 20px;
+                }
+                ul{
+                    padding: 0px 0px 20px 20px;
+                   li{
+                       font-family: monospace;
+                       a{
+                        text-decoration: none;   
+                        color: $link-color-three;
+                        font-weight: bolder;
+                       }
+                       a:hover{
+                        color: red;
+                    }
+                   } 
+                    list-style-type: none;
+                    
+                }
+            }
+
+        }
+
+    }
+}

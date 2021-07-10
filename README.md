@@ -1,8 +1,8 @@
 # CSS Zen Garden: The Beauty of CSS Design
 
-> [Your name]
+> [พรธิดา สุขสรรควณิช]
 >  
-> [Your ID]
+> [6210451314]
 
 ## Task
 
