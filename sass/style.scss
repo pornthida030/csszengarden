@@ -1,14 +1,13 @@
-$link-color:#6d6224;
+$link-color:#5c5320;
 $link-color-two: rgb(5, 87, 5);
 $link-color-three:rgb(9, 128, 9);
 $link-color-four: rgb(255, 251, 0);
+$link-color-five:rgb(235, 252, 235);
 #css-zen-garden{
     background-color: green;
 }
 
 div.page-wrapper{
-    // background-color:rgba(255, 255, 255, 0.363);
-    // border: solid rgba(255, 255, 255, 0.363) ;
     section.intro{
         header{
                text-align: center;
@@ -16,26 +15,30 @@ div.page-wrapper{
                 border: 10px solid white;
                 border-radius: 5px;
             h1{
-                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-family:cursive;
                 font-size: 32px;
                 color: white;
                
             }
             h2{
-                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-family:cursive;
                 font-size: 20px;
                 color: white;
             }
         }
         
         div.summary{
-            padding: 0px 20px 0px 20px;
+            
             p{
-                
+                font-size: 17px;
+                padding: 0px 40px 0px 40px;
+                font-family:Arial, Helvetica, sans-serif;
                 a{
+                    font-weight: bolder;
                     color:$link-color;
                     text-decoration: none;
-                    font-weight: bolder;
+                    
+                    
                 }
                 a:hover{
                     color:$link-color-four;
@@ -43,27 +46,50 @@ div.page-wrapper{
             }
         }
         div.preamble{
-            padding: 0px 20px 0px 20px;
+            
             h3{
-                font-family:sans-serif;
+                font-family:Helvetica, serif;
+                background-color:$link-color-two;
+                color: $link-color-five;
+                
+                padding: 10px 20px 10px 20px;
+                text-align: center;
 
             }
+            p{
+                padding: 0px 40px 0px 40px;
+                font-family:Arial, Helvetica, sans-serif;
+                
+            }
+
         }
     }
 
-    background-color:rgba(255, 255, 255, 0.363);
+    background-color:rgba(255, 255, 255, 0.384);
     border-radius: 5px;
     
     div[role="main"]{
-        padding: 0px 20px 0px 20px;
+        
         div.explanation{
             h3{
-                font-family:sans-serif;
+                font-family:Helvetica, serif;
+                background-color: $link-color-two;
+                color: $link-color-five;
+                padding: 10px 20px 10px 20px;
+                text-align: center;
+            }
+            p{
+                padding: 0px 40px 0px 40px;
+                font-family:Arial, Helvetica, sans-serif;
             }
         }
         div.participation{
             h3{
-                font-family: sans-serif;
+                font-family: Helvetica, serif;
+                background-color: $link-color-two;
+                color: $link-color-five;
+                padding: 10px 20px 10px 20px;
+                text-align: center;
             }
             a{
                 color: $link-color;
@@ -73,19 +99,40 @@ div.page-wrapper{
             a:hover{
                 color: $link-color-four;
             }
+            p{
+                padding: 0px 40px 0px 40px;
+                font-family:Arial, Helvetica, sans-serif;
+            }
 
         }
         div.benefits{
             h3{
-                font-family: sans-serif;
+                font-family:Helvetica, serif;
+                background-color: $link-color-two;
+                color: $link-color-five;
+                padding: 10px 20px 10px 20px;
+                text-align: center;
+                
+            }
+            p{
+                padding: 0px 40px 0px 40px;
+                font-family:Arial, Helvetica, sans-serif;
             }
 
         }
         div.requirements{
             h3{
-                font-family: sans-serif;
+                font-family: Helvetica, serif;
+                background-color: $link-color-two;
+                color: $link-color-five;
+                padding: 10px 20px 10px 20px;
+                text-align: center;
+
             }
             p{
+                padding: 0px 40px 0px 40px;
+                font-family:Arial, Helvetica, sans-serif;
+                
                 a{
                     color: $link-color;
                     text-decoration: none;
@@ -96,6 +143,7 @@ div.page-wrapper{
                 }
             }
             p[role="contentinfo"]{
+                font-family:Arial, Helvetica, sans-serif;
                 color: white;
                 background-image: url(https://cdn.pixabay.com/photo/2016/07/05/16/53/leaves-1498985_960_720.jpg);
                 font-family: cursive;
@@ -107,6 +155,9 @@ div.page-wrapper{
                     color: hsl(51, 94%, 81%);
                     text-decoration: none;
                     font-weight: bolder;
+                }
+                a:hover{
+                    color: hsl(51, 85%, 68%);
                 }
                 
                 
@@ -139,7 +190,8 @@ div.page-wrapper{
 
 
     aside.sidebar{
-        background-color: white;
+
+        background-color:$link-color-five;
         border-radius: 5px;
 
         div.wrapper{
@@ -156,8 +208,10 @@ div.page-wrapper{
                 }
                 nav[role="navigation"]{
                     
+                    
                     ul{
                         padding: 0px 0px 0px 20px;
+                        
                        li{
                            font-family: monospace;
                            a{
@@ -209,7 +263,7 @@ div.page-wrapper{
                 h3.resources{
                     background-color: $link-color-two;
                     border-radius: 1px;
-                    color: white;
+                    color:white;
                     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
                     font-size: 24px;
                     padding: 10px 20px;
@@ -235,4 +289,8 @@ div.page-wrapper{
         }
 
     }
+}
+
+div.extra1{
+    padding:5px;
 }
